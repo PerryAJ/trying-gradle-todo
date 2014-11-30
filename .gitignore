@@ -1,0 +1,38 @@
+# A general .gitignore for Gradle built Java projects that
+# may use IntelliJ or Eclipse as an IDE.
+
+# built application files for Android development
+*.apk
+*.ap_
+ 
+# Ignition Module files
+*.modl
+
+# files for the dex VM
+*.dex
+ 
+# Java class files
+*.class
+ 
+# generated files
+bin/
+gen/
+ 
+# Local configuration file used for proj. specific settings (sdk paths, etc)
+local.properties
+ 
+# Eclipse project files
+.classpath
+.project
+ 
+# Intellij project files
+*.iml  
+*.ipr
+*.iws
+.idea/
+ 
+# Gradle related files and caches
+.gradletasknamecache
+.gradle/
+build/
+bin/
